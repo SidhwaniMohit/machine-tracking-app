@@ -1,0 +1,647 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "uri": "https://sandboxapi.deere.com/platform/organizations/157679/machines"
+    }
+  ],
+  "total": 3,
+  "values": [
+    {
+      "@type": "Machine",
+      "visualizationCategory": "tractor",
+      "machineCategories": {
+        "@type": "MachineCategories",
+        "machineCategories": [
+          {
+            "@type": "MachineCategory",
+            "name": "JOHN DEERE",
+            "id": "1",
+            "type": "Make"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "8530",
+            "id": "7524",
+            "type": "Model"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "Tractor",
+            "id": "1012",
+            "type": "Type"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "RW24466",
+            "type": "DMC"
+          }
+        ],
+        "otherAttributes": {}
+      },
+      "category": {
+        "@type": "MachineCategory",
+        "name": "Tractor",
+        "id": "1012",
+        "type": "Type"
+      },
+      "make": {
+        "@type": "MachineCategory",
+        "name": "JOHN DEERE",
+        "id": "1",
+        "type": "Make"
+      },
+      "model": {
+        "@type": "MachineCategory",
+        "name": "8530",
+        "id": "7524",
+        "type": "Model"
+      },
+      "detailMachineCode": {
+        "@type": "MachineCategory",
+        "name": "RW24466",
+        "type": "DMC"
+      },
+      "productKey": "14627770",
+      "engineSerialNumber": "RG6090L047855",
+      "telematicsState": "active",
+      "capabilities": [],
+      "terminals": {
+        "@type": "Terminals",
+        "otherAttributes": {}
+      },
+      "displays": {
+        "@type": "Displays",
+        "otherAttributes": {}
+      },
+      "GUID": "609e3296-18ae-4e41-81d9-349e8d50ae22",
+      "modelYear": "2008",
+      "id": "268269",
+      "vin": "RW8530D029931",
+      "name": "8530",
+      "equipmentMake": {
+        "@type": "EquipmentMake",
+        "name": "JOHN DEERE",
+        "ERID": "db18bdc4-025a-11eb-97e4-0e8d658c7ba3",
+        "certified": true,
+        "id": "1"
+      },
+      "equipmentType": {
+        "@type": "EquipmentType",
+        "name": "Two-wheel Drive Tractors - 140 Hp And Above",
+        "GUID": "33d039fc-11fb-11ee-8580-0ed5f726b451",
+        "category": "Machine",
+        "certified": true,
+        "marketSegment": "Agriculture",
+        "id": "133"
+      },
+      "equipmentApexType": {
+        "@type": "EquipmentApexType",
+        "name": "Tractor",
+        "GUID": "82115264-9385-460c-bfbe-177a59445fd9",
+        "category": "Machine",
+        "id": "1"
+      },
+      "equipmentModel": {
+        "@type": "EquipmentModel",
+        "name": "8530",
+        "GUID": "caf794f5-9254-4bb2-8c36-a67e5c1f20f4",
+        "certified": true,
+        "classification": "Machine",
+        "id": "600412"
+      },
+      "isSerialNumberCertified": "true",
+      "links": [
+        {
+          "@type": "Link",
+          "rel": "self",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269"
+        },
+        {
+          "@type": "Link",
+          "rel": "organizations",
+          "uri": "https://sandboxapi.deere.com/platform/organizations/157679"
+        },
+        {
+          "@type": "Link",
+          "rel": "maintenancePlans",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/maintenancePlans"
+        },
+        {
+          "@type": "Link",
+          "rel": "location",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/location"
+        },
+        {
+          "@type": "Link",
+          "rel": "terminals",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/terminals"
+        },
+        {
+          "@type": "Link",
+          "rel": "displays",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/displays"
+        },
+        {
+          "@type": "Link",
+          "rel": "lastKnownEngineHours",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/engineHours?lastKnown=true"
+        },
+        {
+          "@type": "Link",
+          "rel": "alerts",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/alerts"
+        },
+        {
+          "@type": "Link",
+          "rel": "measurements",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/machineMeasurements"
+        },
+        {
+          "@type": "Link",
+          "rel": "hoursOfOperation",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/hoursOfOperation"
+        },
+        {
+          "@type": "Link",
+          "rel": "deviceStateReports",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/deviceStateReports"
+        },
+        {
+          "@type": "Link",
+          "rel": "engineHours",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/engineHours"
+        },
+        {
+          "@type": "Link",
+          "rel": "locationHistory",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/locationHistory"
+        },
+        {
+          "@type": "Link",
+          "rel": "workAssignments",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/workAssignments"
+        },
+        {
+          "@type": "Link",
+          "rel": "offsets",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/offsets"
+        },
+        {
+          "@type": "Link",
+          "rel": "lastKnownBreadcrumb",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/breadcrumbs?lastKnown=true"
+        },
+        {
+          "@type": "Link",
+          "rel": "locations",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/locations"
+        },
+        {
+          "@type": "Link",
+          "rel": "addLocation",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/locations"
+        },
+        {
+          "@type": "Link",
+          "rel": "breadcrumbs",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/breadcrumbs"
+        },
+        {
+          "@type": "Link",
+          "rel": "associateTerminal",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/associateTerminal"
+        },
+        {
+          "@type": "Link",
+          "rel": "capabilities",
+          "uri": "https://sandboxapi.deere.com/platform/machines/268269/capabilities"
+        }
+      ]
+    },
+    {
+      "@type": "Machine",
+      "visualizationCategory": "trackedTractor",
+      "machineCategories": {
+        "@type": "MachineCategories",
+        "machineCategories": [
+          {
+            "@type": "MachineCategory",
+            "name": "JOHN DEERE",
+            "id": "1",
+            "type": "Make"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "8345RT",
+            "id": "754596",
+            "type": "Model"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "Tractor",
+            "id": "1012",
+            "type": "Type"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "RW07K23",
+            "type": "DMC"
+          }
+        ],
+        "otherAttributes": {}
+      },
+      "category": {
+        "@type": "MachineCategory",
+        "name": "Tractor",
+        "id": "1012",
+        "type": "Type"
+      },
+      "make": {
+        "@type": "MachineCategory",
+        "name": "JOHN DEERE",
+        "id": "1",
+        "type": "Make"
+      },
+      "model": {
+        "@type": "MachineCategory",
+        "name": "8345RT",
+        "id": "754596",
+        "type": "Model"
+      },
+      "detailMachineCode": {
+        "@type": "MachineCategory",
+        "name": "RW07K23",
+        "type": "DMC"
+      },
+      "productKey": "91187544",
+      "engineSerialNumber": "RG6090U055304",
+      "telematicsState": "active",
+      "capabilities": [],
+      "terminals": {
+        "@type": "Terminals",
+        "otherAttributes": {}
+      },
+      "displays": {
+        "@type": "Displays",
+        "otherAttributes": {}
+      },
+      "GUID": "2dc06cfb-cadd-4d14-959c-cf96b48777d1",
+      "modelYear": "2018",
+      "id": "483489",
+      "vin": "1RW8345RCJD918410",
+      "name": "8345RT",
+      "equipmentMake": {
+        "@type": "EquipmentMake",
+        "name": "JOHN DEERE",
+        "ERID": "db18bdc4-025a-11eb-97e4-0e8d658c7ba3",
+        "certified": true,
+        "id": "1"
+      },
+      "equipmentType": {
+        "@type": "EquipmentType",
+        "name": "Track Tractor",
+        "GUID": "1f685449-806f-436a-9718-237b200dd163",
+        "category": "Machine",
+        "certified": true,
+        "marketSegment": "Agriculture",
+        "id": "138"
+      },
+      "equipmentApexType": {
+        "@type": "EquipmentApexType",
+        "name": "Tractor",
+        "GUID": "82115264-9385-460c-bfbe-177a59445fd9",
+        "category": "Machine",
+        "id": "1"
+      },
+      "equipmentModel": {
+        "@type": "EquipmentModel",
+        "name": "8345RT",
+        "GUID": "f2e9a2d1-35c6-11e7-af34-123e49453e98",
+        "certified": true,
+        "classification": "Machine",
+        "id": "66374"
+      },
+      "isSerialNumberCertified": "true",
+      "links": [
+        {
+          "@type": "Link",
+          "rel": "self",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489"
+        },
+        {
+          "@type": "Link",
+          "rel": "organizations",
+          "uri": "https://sandboxapi.deere.com/platform/organizations/157679"
+        },
+        {
+          "@type": "Link",
+          "rel": "maintenancePlans",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/maintenancePlans"
+        },
+        {
+          "@type": "Link",
+          "rel": "location",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/location"
+        },
+        {
+          "@type": "Link",
+          "rel": "terminals",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/terminals"
+        },
+        {
+          "@type": "Link",
+          "rel": "displays",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/displays"
+        },
+        {
+          "@type": "Link",
+          "rel": "lastKnownEngineHours",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/engineHours?lastKnown=true"
+        },
+        {
+          "@type": "Link",
+          "rel": "alerts",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/alerts"
+        },
+        {
+          "@type": "Link",
+          "rel": "measurements",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/machineMeasurements"
+        },
+        {
+          "@type": "Link",
+          "rel": "hoursOfOperation",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/hoursOfOperation"
+        },
+        {
+          "@type": "Link",
+          "rel": "deviceStateReports",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/deviceStateReports"
+        },
+        {
+          "@type": "Link",
+          "rel": "engineHours",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/engineHours"
+        },
+        {
+          "@type": "Link",
+          "rel": "locationHistory",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/locationHistory"
+        },
+        {
+          "@type": "Link",
+          "rel": "workAssignments",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/workAssignments"
+        },
+        {
+          "@type": "Link",
+          "rel": "offsets",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/offsets"
+        },
+        {
+          "@type": "Link",
+          "rel": "lastKnownBreadcrumb",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/breadcrumbs?lastKnown=true"
+        },
+        {
+          "@type": "Link",
+          "rel": "locations",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/locations"
+        },
+        {
+          "@type": "Link",
+          "rel": "addLocation",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/locations"
+        },
+        {
+          "@type": "Link",
+          "rel": "breadcrumbs",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/breadcrumbs"
+        },
+        {
+          "@type": "Link",
+          "rel": "associateTerminal",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/associateTerminal"
+        },
+        {
+          "@type": "Link",
+          "rel": "capabilities",
+          "uri": "https://sandboxapi.deere.com/platform/machines/483489/capabilities"
+        }
+      ]
+    },
+    {
+      "@type": "Machine",
+      "visualizationCategory": "combine",
+      "machineCategories": {
+        "@type": "MachineCategories",
+        "machineCategories": [
+          {
+            "@type": "MachineCategory",
+            "name": "JOHN DEERE",
+            "id": "1",
+            "type": "Make"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "9570 STS",
+            "id": "31343",
+            "type": "Model"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "Combine Harvesting",
+            "id": "1006",
+            "type": "Type"
+          },
+          {
+            "@type": "MachineCategory",
+            "name": "H 160D1",
+            "type": "DMC"
+          }
+        ],
+        "otherAttributes": {}
+      },
+      "category": {
+        "@type": "MachineCategory",
+        "name": "Combine Harvesting",
+        "id": "1006",
+        "type": "Type"
+      },
+      "make": {
+        "@type": "MachineCategory",
+        "name": "JOHN DEERE",
+        "id": "1",
+        "type": "Make"
+      },
+      "model": {
+        "@type": "MachineCategory",
+        "name": "9570 STS",
+        "id": "31343",
+        "type": "Model"
+      },
+      "detailMachineCode": {
+        "@type": "MachineCategory",
+        "name": "H 160D1",
+        "type": "DMC"
+      },
+      "productKey": "42767915",
+      "engineSerialNumber": "PE6068L127499",
+      "telematicsState": "inoperative",
+      "capabilities": [],
+      "terminals": {
+        "@type": "Terminals",
+        "otherAttributes": {}
+      },
+      "displays": {
+        "@type": "Displays",
+        "otherAttributes": {}
+      },
+      "GUID": "4ce3120a-8c77-4837-9729-897ed799d864",
+      "modelYear": "2010",
+      "id": "711663",
+      "vin": "1H09570SLA0735599",
+      "name": "9570 STS",
+      "equipmentMake": {
+        "@type": "EquipmentMake",
+        "name": "JOHN DEERE",
+        "ERID": "db18bdc4-025a-11eb-97e4-0e8d658c7ba3",
+        "certified": true,
+        "id": "1"
+      },
+      "equipmentType": {
+        "@type": "EquipmentType",
+        "name": "Combine",
+        "GUID": "3419d919-11fb-11ee-8580-0ed5f726b451",
+        "category": "Machine",
+        "certified": true,
+        "marketSegment": "Agriculture",
+        "id": "139"
+      },
+      "equipmentApexType": {
+        "@type": "EquipmentApexType",
+        "name": "Combine",
+        "GUID": "d8dce5b0-cc8d-4c34-afac-27d93793bd86",
+        "category": "Machine",
+        "id": "2"
+      },
+      "equipmentModel": {
+        "@type": "EquipmentModel",
+        "name": "9570 STS",
+        "GUID": "f2e76a31-35c6-11e7-af34-123e49453e98",
+        "certified": true,
+        "classification": "Machine",
+        "id": "65891"
+      },
+      "isSerialNumberCertified": "true",
+      "links": [
+        {
+          "@type": "Link",
+          "rel": "self",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663"
+        },
+        {
+          "@type": "Link",
+          "rel": "organizations",
+          "uri": "https://sandboxapi.deere.com/platform/organizations/157679"
+        },
+        {
+          "@type": "Link",
+          "rel": "maintenancePlans",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/maintenancePlans"
+        },
+        {
+          "@type": "Link",
+          "rel": "location",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/location"
+        },
+        {
+          "@type": "Link",
+          "rel": "terminals",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/terminals"
+        },
+        {
+          "@type": "Link",
+          "rel": "displays",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/displays"
+        },
+        {
+          "@type": "Link",
+          "rel": "lastKnownEngineHours",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/engineHours?lastKnown=true"
+        },
+        {
+          "@type": "Link",
+          "rel": "alerts",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/alerts"
+        },
+        {
+          "@type": "Link",
+          "rel": "measurements",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/machineMeasurements"
+        },
+        {
+          "@type": "Link",
+          "rel": "hoursOfOperation",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/hoursOfOperation"
+        },
+        {
+          "@type": "Link",
+          "rel": "deviceStateReports",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/deviceStateReports"
+        },
+        {
+          "@type": "Link",
+          "rel": "engineHours",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/engineHours"
+        },
+        {
+          "@type": "Link",
+          "rel": "locationHistory",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/locationHistory"
+        },
+        {
+          "@type": "Link",
+          "rel": "workAssignments",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/workAssignments"
+        },
+        {
+          "@type": "Link",
+          "rel": "offsets",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/offsets"
+        },
+        {
+          "@type": "Link",
+          "rel": "lastKnownBreadcrumb",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/breadcrumbs?lastKnown=true"
+        },
+        {
+          "@type": "Link",
+          "rel": "locations",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/locations"
+        },
+        {
+          "@type": "Link",
+          "rel": "addLocation",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/locations"
+        },
+        {
+          "@type": "Link",
+          "rel": "breadcrumbs",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/breadcrumbs"
+        },
+        {
+          "@type": "Link",
+          "rel": "associateTerminal",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/associateTerminal"
+        },
+        {
+          "@type": "Link",
+          "rel": "capabilities",
+          "uri": "https://sandboxapi.deere.com/platform/machines/711663/capabilities"
+        }
+      ]
+    }
+  ]
+}
